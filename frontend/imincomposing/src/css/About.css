@@ -1,0 +1,32 @@
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 20px 20px 20px;
+    /*border-radius: 8px;*/
+    box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.5); /* Horizontal Offset, Vertical Offset, Blur Radius, Spread Radius, RGBA*/
+}
+
+.about-image {
+    margin: 0px 20px 0px 0px;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    box-shadow: 0 0 4px 2px rgba(0, 0, 0, 0.7);
+}
+
+.about-info {
+    max-width: 600px;
+}
+
+.about-info h2 {
+    margin-bottom: 10px;
+}
+
+.about-info p {
+    line-height: 1.6;
+}

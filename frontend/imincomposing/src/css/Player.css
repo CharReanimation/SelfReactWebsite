@@ -1,0 +1,86 @@
+.player {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    background-color: #1e1e1e;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    text-align: center;
+}
+
+/* Cover Image*/
+.player-song-cover {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+/* Title*/
+.player h2 {
+    font-size: 1.5em;
+    margin: 10px 0 5px;
+}
+
+.player h3 {
+    font-size: 1.1em;
+    font-weight: normal;
+    color: #a0a0a0;
+    margin: 0;
+}
+
+/* Controller */
+.controls {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-top: 15px;
+}
+
+.controls button {
+    background-color: #3b82f6;
+    border: none;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.controls button:hover {
+    background-color: #2563eb;
+}
+
+/* Progress Bar */
+.progress-bar input[type="range"] {
+    position: relative;
+    background-color: #333;
+    width: 100%;
+    height: 8px;
+    margin: 15px 0;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+/* Volume Controller */
+.volume-control {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10px;
+}
+
+.volume-control label {
+    margin-right: 5px;
+    color: #a0a0a0;
+}
+
+.volume-control input[type="range"] {
+    width: 60%;
+}
